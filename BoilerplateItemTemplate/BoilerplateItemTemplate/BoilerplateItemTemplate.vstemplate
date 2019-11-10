@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>BoilerplateItemTemplate</Name>
+    <Description>BoilerplateItemTemplate</Description>
+    <Icon>BoilerplateItemTemplate.ico</Icon>
+    <TemplateID>7c55ce38-05c6-484e-95fa-9e47aa6f7027</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Class.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>VSIXProject, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=4e8308f48b245bc1</Assembly>
+    <FullClassName>VSIXProject.WizardImplementation</FullClassName>
+  </WizardExtension>
+</VSTemplate>
